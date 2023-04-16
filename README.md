@@ -49,4 +49,4 @@ To change the version of dotnet using the command line, follow these steps:
    dotnet --version
    ```
 
-..
+...

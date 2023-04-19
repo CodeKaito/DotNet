@@ -15,6 +15,7 @@ namespace Sezione_6
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.addMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -26,7 +27,10 @@ namespace Sezione_6
             }
 
             // app.UseMvcWithDefaultRoute();
-            app.useMvc();
+            app.useMvc(routeBuilder => 
+            {
+                routeBuilder.MapRoute("default", "{controller}/{action}/{id}");
+            });
         }
     }
 }

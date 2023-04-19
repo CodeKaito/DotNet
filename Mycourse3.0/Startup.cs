@@ -25,10 +25,13 @@ namespace Mycourse3
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseStaticFiles();
 
+
+            //app.useMvcWithDefaultRoute();
             app.UseMvc(routeBuilder =>
             {
-                routeBuilder.MapRoute("default", "{controller}/{action}/{id}");
+                routeBuilder.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

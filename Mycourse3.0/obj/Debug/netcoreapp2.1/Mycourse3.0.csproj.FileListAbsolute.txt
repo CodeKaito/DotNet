@@ -1,0 +1,14 @@
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\obj\Debug\netcoreapp2.1\Mycourse3.0.csprojAssemblyReference.cache
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\obj\Debug\netcoreapp2.1\Mycourse3.0.csproj.CoreCompileInputs.cache
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\obj\Debug\netcoreapp2.1\Mycourse3.0.RazorAssemblyInfo.cache
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\obj\Debug\netcoreapp2.1\Mycourse3.0.RazorAssemblyInfo.cs
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\obj\Debug\netcoreapp2.1\Mycourse3.0.AssemblyInfoInputs.cache
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\obj\Debug\netcoreapp2.1\Mycourse3.0.AssemblyInfo.cs
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\bin\Debug\netcoreapp2.1\Mycourse3.0.deps.json
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\bin\Debug\netcoreapp2.1\Mycourse3.0.runtimeconfig.json
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\bin\Debug\netcoreapp2.1\Mycourse3.0.runtimeconfig.dev.json
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\bin\Debug\netcoreapp2.1\Mycourse3.0.dll
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\bin\Debug\netcoreapp2.1\Mycourse3.0.pdb
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\obj\Debug\netcoreapp2.1\Mycourse3.0.RazorTargetAssemblyInfo.cache
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\obj\Debug\netcoreapp2.1\Mycourse3.0.dll
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Mycourse3.0\obj\Debug\netcoreapp2.1\Mycourse3.0.pdb

@@ -1,0 +1,6 @@
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Myapp\obj\Debug\netcoreapp2.1\Myapp.csprojAssemblyReference.cache
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Myapp\obj\Debug\netcoreapp2.1\Myapp.csproj.CoreCompileInputs.cache
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Myapp\obj\Debug\netcoreapp2.1\Myapp.RazorAssemblyInfo.cache
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Myapp\obj\Debug\netcoreapp2.1\Myapp.RazorAssemblyInfo.cs
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Myapp\obj\Debug\netcoreapp2.1\Myapp.AssemblyInfoInputs.cache
+C:\Users\Admmcsidecinco\Documents\Github repository\Dotnett\Myapp\obj\Debug\netcoreapp2.1\Myapp.AssemblyInfo.cs

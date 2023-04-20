@@ -15,12 +15,6 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "Myapp",
-  "Documents": [
-    {
-      "FilePath": "c:\\Users\\Admmcsidecinco\\Documents\\Github repository\\Dotnett\\Myapp\\Views\\Courses\\Index.cshtml",
-      "TargetPath": "Views\\Courses\\Index.cshtml",
-      "FileKind": "mvc"
-    }
-  ],
+  "Documents": [],
   "SerializationFormat": "0.3"
 }

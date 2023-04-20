@@ -13,7 +13,7 @@ namespace Myapp.Controllers
         }
 
         public IActionResult Detail(string id){
-            return Content($"Io sono Detail, ho ricevuto l'id {id}");
+            return View();
         }
     }
 }

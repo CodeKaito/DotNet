@@ -1,0 +1,20 @@
+{
+  "SerializedFilePath": "c:\\Users\\Admmcsidecinco\\Documents\\Github repository\\Dotnett\\Mycourse3.0\\obj\\Debug\\netcoreapp2.2\\project.razor.json",
+  "FilePath": "c:\\Users\\Admmcsidecinco\\Documents\\Github repository\\Dotnett\\Mycourse3.0\\Mycourse3.0.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "Mycourse3.0",
+  "Documents": [],
+  "SerializationFormat": "0.3"
+}

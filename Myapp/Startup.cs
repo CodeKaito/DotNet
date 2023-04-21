@@ -25,6 +25,12 @@ namespace Myapp
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
+                lifetime.ApplicationStarted.Register(() =>
+                {
+                    string filePath = filePath.Combine(env.ContentRootPath, "bin/reload.txt");
+                    File.WriteAllText(filePath, DateTime.Now.ToString());
+                });
             }
             app.UseStaticFiles();
 

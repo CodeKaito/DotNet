@@ -10,7 +10,24 @@ namespace Myapp.Models.Services.Application
     {
         public List<CourseViewModel> GetServices()
         {
-            throw new NotImplementedException();
+            var courseList = new List<CourseViewModel>();
+            var rand = new Random();
+            for (int i = 1; i <= 20; i++)
+            {
+                var price = Convert.ToDecimal(rand.NextDouble() * 10 + 10);
+                var course = new CourseViewModel
+                {
+                    Id = i,
+                    Title = $"Corso {i}",
+                    CurrentPrice = new Money(Currency.EUR, price),
+                    FullPrice = new Money(Currency.EUR, rand.NextDouble() > 0.5 ? price : price - 1),
+                    Author = "Nome Cognome",
+                    NonRandomizedStringEqualityComparer = rand.NextDouble() * 5.0,
+                    ImagePath = "~/logo.svg"
+                };
+                courseList.Add(course);
+            }
+            return courseList;
         }
     }
 }

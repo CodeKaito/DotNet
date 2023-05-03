@@ -1,0 +1,10 @@
+C:\_dev\Libraries\Money\src\Money.Tests\obj\Debug\Money.Tests.csprojResolveAssemblyReference.cache
+C:\_dev\Libraries\Money\src\Money.Tests\bin\Debug\Money.Tests.dll
+C:\_dev\Libraries\Money\src\Money.Tests\bin\Debug\Money.Tests.pdb
+C:\_dev\Libraries\Money\src\Money.Tests\bin\Debug\Money.dll
+C:\_dev\Libraries\Money\src\Money.Tests\bin\Debug\xunit.dll
+C:\_dev\Libraries\Money\src\Money.Tests\bin\Debug\Money.pdb
+C:\_dev\Libraries\Money\src\Money.Tests\bin\Debug\xunit.pdb
+C:\_dev\Libraries\Money\src\Money.Tests\bin\Debug\xunit.xml
+C:\_dev\Libraries\Money\src\Money.Tests\obj\Debug\Money.Tests.dll
+C:\_dev\Libraries\Money\src\Money.Tests\obj\Debug\Money.Tests.pdb

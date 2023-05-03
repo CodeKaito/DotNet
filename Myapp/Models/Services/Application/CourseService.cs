@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Myapp.Models.ViewModels;
+using Myapp.Models.Enums;
+using Myapp.Models.ValueTypes;
+
 
 namespace Myapp.Models.Services.Application
 {
@@ -22,7 +25,7 @@ namespace Myapp.Models.Services.Application
                     CurrentPrice = new Money(Currency.EUR, price),
                     FullPrice = new Money(Currency.EUR, rand.NextDouble() > 0.5 ? price : price - 1),
                     Author = "Nome Cognome",
-                    NonRandomizedStringEqualityComparer = rand.NextDouble() * 5.0,
+                    Rating = rand.NextDouble() * 5.0,
                     ImagePath = "~/logo.svg"
                 };
                 courseList.Add(course);

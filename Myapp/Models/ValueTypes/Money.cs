@@ -12,7 +12,7 @@ namespace Myapp.Models.ValueTypes
         {
         }
 
-        public Money(Currency currency, decimal count)
+        public Money(Currency currency, decimal amount)
         {
             Amount = amount;
             Currency = currency;
@@ -55,7 +55,7 @@ namespace Myapp.Models.ValueTypes
 
         public override string ToString()
         {
-            return $"{Currency} {Amount: #.00}";
+            return $"{Currency} {Amount:#.00}";
         }
     }
 }

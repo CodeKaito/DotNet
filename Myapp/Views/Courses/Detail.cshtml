@@ -1,1 +1,51 @@
-<h1>Sono la view per l'action Detail del CoursesController</h1>
+@model CourseDetailViewModel
+<section class="course-info">
+    <div class="row">
+        <div class="col-md-9">
+            <h1>@Model.Title</h1>
+        </div>
+        <div class="col-md-3 d-flex align-items-end">
+            <a href='#' class="btn btn-warning btn-lg btn-block subscribe-course">Iscriviti</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-9">
+            <p>@Model.Description</p>
+        </div>
+        <div class="col-md-3">
+            <aside>
+                <author>Di @Model.Author</author>
+                <div class="rating" title="@Model.Rating">
+                    @for(int i = 1; i < 5; i++)
+                    {
+                        if (Model.Rating >= i)
+                        {
+                            <i class="fas fa-star"></i>
+                        } else if (Model.Rating > i - 1 )
+                        {
+                            <i class="fas fas fa-star-half-alt"></i>
+                        } else {
+                            <i class="far fa-star"></i>
+                        }
+                    }
+                </div>
+                <div class="price">EUR 10,99<br></div>
+                <img src="/logo.png" class="img-">
+            </aside>
+        </div>
+
+    </div>
+</section>
+
+<section class="course-lessons">
+    <h2>Lezioni</h2>
+    @for (int i = 1; i <= 10; i++)
+    {
+        <hr>
+        <div class="row">
+            <div class="col-md-9 d-flex align-items">
+                <a href="#">Titolo della Lezione</a>
+            </div>
+        </div>
+    }
+</section>

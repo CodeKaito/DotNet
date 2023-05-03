@@ -26,7 +26,7 @@ namespace Myapp.Models.Services.Application
                     FullPrice = new Money(Currency.EUR, rand.NextDouble() > 0.5 ? price : price - 1),
                     Author = "Nome Cognome",
                     Rating = rand.NextDouble() * 5.0,
-                    ImagePath = "~/logo.svg"
+                    ImagePath = "/logo.png"
                 };
                 courseList.Add(course);
             }
